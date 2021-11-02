@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_menu"
+    app:startDestination="@id/profileFirst">
+
+    <fragment
+        android:id="@+id/profileFirst"
+        android:name="com.example.waterwand.profileFirst"
+        android:label="fragment_profile_first"
+        tools:layout="@layout/fragment_profile_first" />
+    <fragment
+        android:id="@+id/add_Device"
+        android:name="com.example.waterwand.add_Device"
+        android:label="fragment_add__device"
+        tools:layout="@layout/fragment_add__device" />
+    <fragment
+        android:id="@+id/data_Collection"
+        android:name="com.example.waterwand.data_Collection"
+        android:label="fragment_data__collection"
+        tools:layout="@layout/fragment_data__collection" />
+    <fragment
+        android:id="@+id/notification_page"
+        android:name="com.example.waterwand.notification_page"
+        android:label="fragment_notification_page"
+        tools:layout="@layout/fragment_notification_page" />
+    <fragment
+        android:id="@+id/contact_page"
+        android:name="com.example.waterwand.contact_page"
+        android:label="fragment_contact_page"
+        tools:layout="@layout/fragment_contact_page" />
+    <fragment
+        android:id="@+id/reply_onboard"
+        android:name="com.example.waterwand.reply_onboard"
+        android:label="fragment_reply_onboard"
+        tools:layout="@layout/fragment_reply_onboard" />
+</navigation>

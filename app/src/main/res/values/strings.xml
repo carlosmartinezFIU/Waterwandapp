@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WaterWand</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home">Hello blank fragment</string>
+    <string name="Map">Hello blank fragment</string>
+    <string name="Profile">Hello blank fragment</string>
+    <string name="access_token">pk.eyJ1IjoiY21hcnQ1NjYiLCJhIjoiY2t2aDN4cTc2NGhhazMwcXB5dWdlbHpwbCJ9.ZisvjpDUd8rZ79guhWpN9A</string>
+</resources>

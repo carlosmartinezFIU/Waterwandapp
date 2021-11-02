@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="My Device"
+        android:icon="@drawable/ic_mydevice"/>
+    <item
+        android:title="All Devices"
+        android:icon="@drawable/ic_alldevices"/>
+    <item
+        android:title="View Info"
+        android:icon="@drawable/ic_thisinfo"/>
+</menu>
